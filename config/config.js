@@ -11,13 +11,13 @@ process.env.MONGO_HOST ||
 export default config*/
 
 const config = {
- env: process.env.NODE_ENV || 'development', 
- port: process.env.PORT || 3000,
- jwtSecret: process.env.JWT_SECRET || "YOUR_secret_key", 
- mongoUri: process.env.MONGODB_URI || "mongodb+srv://Blessing:qzzJjISAcwfPklIo@cluster0.txlxgvp.mongodb.net/Skeleton?retryWrites=true&w=majority"||
+env: process.env.NODE_ENV || 'development', 
+port: process.env.PORT || 3000,
+jwtSecret: process.env.JWT_SECRET || "YOUR_secret_key", 
+mongoUri: process.env.MONGODB_URI || "mongodb+srv://yinkit01:Nutella1806@cluster0.b3jfxcs.mongodb.net/?retryWrites=true&w=majority"||
 process.env.MONGO_HOST ||
- 'mongodb://' + (process.env.IP || 'localhost') + ':' + 
+'mongodb://' + (process.env.IP || 'localhost') + ':' + 
 (process.env.MONGO_PORT || '27017') +
- '/mernproject' 
- }
- export default config
+'/mernproject' 
+}
+export default config

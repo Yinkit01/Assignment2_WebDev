@@ -6,7 +6,7 @@ return `<!doctype html>
 <title>MERN Skeleton</title> 
 </head>
 <body>
-<div id="root">Hello World</div> 
+<div id="root">Message: Welcome to DressStore Application</div> 
 </body>
 </html>` 
 }
